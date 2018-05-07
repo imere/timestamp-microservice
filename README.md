@@ -6,8 +6,8 @@
 
 ### Example usage:
 
-	https://timestamp-ms.herokuapp.com/December%2015,%202015
-	https://timestamp-ms.herokuapp.com/1450137600
+	<code style="color:#c7254e">https://timestamp-ms.herokuapp.com/December%2015,%202015
+	https://timestamp-ms.herokuapp.com/1450137600</code>
 
 ### Example output:
-	{ "unix": 1450137600, "natural": "December 15, 2015" }
+	<code style="color:#c7254e">{ "unix": 1450137600, "natural": "December 15, 2015" }</code>
