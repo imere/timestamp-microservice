@@ -8,10 +8,6 @@
 
 	https://timestamp-ms.herokuapp.com/December%2015,%202015
 	https://timestamp-ms.herokuapp.com/1450137600
-<<<<<<< HEAD
 
-=======
->>>>>>> 53d48208bc82c8aa2b28236945d09e4504b9cc24
 ### Example output:
 	{ "unix": 1450137600, "natural": "December 15, 2015" }
-
