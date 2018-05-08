@@ -1,7 +1,7 @@
 const http = require("http");
 const url = require("url");
 const path = require("path");
-const PORT = Number(process.argv[2]) || 8000;
+const PORT = Number(process.argv[2]) || process.env.PORT;
 const timeconvert = require("./timeconvert");
 
 const server = http.createServer((req, res) => {
