@@ -15,7 +15,10 @@ const timeconvert = val => {
 		let unix = null;
 		let parsed = Date.parse(val);
 		if(isNaN(parsed)){
-			result = null;
+			result = JSON.stringify({
+				"unix": null,
+				"natural": null
+			});
 		}else{
 			result = JSON.stringify({
 				"unix": parsed,
@@ -23,7 +26,10 @@ const timeconvert = val => {
 			});
 		}
 	}else{
-		console.log(`Parse error: ${val}`);
+		result = JSON.stringify({
+			"unix": null,
+			"natural": null
+		});
 	}
 	return result;
 }
